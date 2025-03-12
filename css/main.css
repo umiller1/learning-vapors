@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Staatliches&display=swap');
+:root {
+    --main: #ec0c57;
+    --sec: #e5d414;
+    --acc: #00C9ff;
+    --wht: #fafafa;
+    --blk: #050505;
+}
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1.125rem;
+    color: var(--blk);
+    background: var(--wht);
+}
+h1, h2 {
+    font-family: "Staatliches", sans-serif;
+}
+button {
+    background: transparent;
+    border: none;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+.wrap {
+    width: 90dvw;
+    max-width: 1280px;
+    margin: 0px auto;
+}
+#home {
+    background-color: var(--main);
+    color: var(--blk);
+    padding: 10px;
+}
+
+header {
+    background-color: var(--blk);
+    padding: 15px 0px;
+}
+nav div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    a {
+        color: var(--wht);
+        font-weight: 600;
+    }
+}
